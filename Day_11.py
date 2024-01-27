@@ -63,16 +63,14 @@ else:
         else:
             print('Sorry thats not a valid input.')
 
+    while sum(p2_deck)<17:
+        p2_deck.append(random.choice(cards))
+
     if sum(p2_deck)>21:
         print('Computer Deck: ',p2_deck)
         print('Your Deck: ',p1_deck)
         print("You won")
         sys.exit()
-
-    loop = True
-
-    while sum(p2_deck)<17:
-        p2_deck.append(random.choice(cards))
 
     print('Computer Deck: ',p2_deck)
     print('Your Deck: ',p1_deck)
