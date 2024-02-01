@@ -12,7 +12,7 @@ print("Do you want to play the game of blackjack? Press 'y' or 'n'")
 ans = input()
 
 if ans == 'n':
-    print("Goodbye!")
+    print("Goodbye!!!")
     sys.exit
 
 else:
