@@ -30,7 +30,7 @@ if dir == 'left':
     print('You come to a lake. There is an island in the middle of the lake. Type "wait" to wait for a boat. Type "swim" to swim across.')
     a = input()
     if a == 'wait':
-        print('You arrived at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?')
+        print('You have arrived at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which colour do you choose?')
         b = input()
         if b == 'yellow':
             print("You found the treasure! You Win!")
