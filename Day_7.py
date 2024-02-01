@@ -1,6 +1,8 @@
 #Hangman Game
 
 import random
+#The Game functions as the player has to guess a word by guessing each letter individually
+#where each wrong guess loses a life.
 stages = ['''
   +---+
   |   |
